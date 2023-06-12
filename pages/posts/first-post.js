@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Image from 'next/image';
+// import Image from 'next/image';
 import Head from 'next/head';
 import Script from 'next/script';
 import Layout from '../../components/layout';
@@ -18,7 +18,7 @@ export default function FirstPost() {
         }
       />
             <h1>My first Post</h1>
-            <Image src="/images/profile.jpg" height={144} width={144} alt="Profile Image" />
+            {/* <Image src="/images/profile.jpg" height={144} width={144} alt="Profile Image" /> */}
             <h2><Link href="/">Back To Home</Link></h2>
         </Layout>
     )
